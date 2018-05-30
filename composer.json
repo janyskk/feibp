@@ -1,0 +1,21 @@
+{
+    "name": "janyskk/feibp",
+    "description": "Toto rozšírenie je určené pre infomačný systém na správu športových podujatí. Umožňuje priraďovanie používateľov na podujatia podľa kritérií spolu s ďalšími funkciami popísanými v dokumentácií",
+    "type": "library",
+    "keywords": ["yii2","extension","resource management","redmine",""],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Ján Alexy",
+            "email": "xalexy@stuba.sk"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "janyskk\\feibp\\": ""
+        }
+    }
+}
