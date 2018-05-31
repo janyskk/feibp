@@ -2,30 +2,35 @@ Rozšírenie na rozdeľovanie úloh
 ===============================
 Toto rozšírenie je určené pre infomačný systém na správu športových podujatí. Umožňuje priraďovanie používateľov na podujatia podľa kritérií spolu s ďalšími funkciami popísanými v dokumentácií
 
-Installation
+Inštalácia
 ------------
 
-The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
+Preferovaný spôsob inštalácie rozšírenia je použitím [composer](http://getcomposer.org/download/).
 
-Either run
+Buď spustením
 
 ```
 php composer.phar require --prefer-dist janyskk/feibp "*"
 ```
 
-or add
+alebo 
+```
+composer require --prefer-dist janyskk/feibp "*"
+```
+
+alebo pridaním
 
 ```
 "janyskk/feibp": "*"
 ```
 
-to the require section of your `composer.json` file.
+do sekcie require vášho `composer.json` súboru.
 
 
-Usage
+Použitie
 -----
 
-Once the extension is installed, simply use it in your code by  :
+Po inštalácii jednoducho rozšírenie použite vo vašom kóde napr. takto :
 
 ```php
 <?= \janyskk\feibp\AutoloadExample::widget(); ?>```
