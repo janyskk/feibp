@@ -17,13 +17,7 @@
         "psr-4": {
             "janyskk\\feibp\\": ""
         }
-    },
-    "repositories":[
-        {
-            "type": "git",
-            "url": "http://github.com/janyskk/feibp.git"
-        }
-    ]
+    }
 }
 
 
